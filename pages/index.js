@@ -6,7 +6,7 @@ import CoinList from "../components/Main/Coinlist";
 
 export default function Home() {
   return (
-    <div className="container">
+    <>
       <Head>
         <title>CeloXpace</title>
         <link rel="icon" href="/favicon.ico" />
@@ -17,11 +17,12 @@ export default function Home() {
           crossorigin="anonymous"
         ></link>
       </Head>
-
+      <div className="container">
       <Navbar />
       <CoinList />
 
       <Footer />
-    </div>
+      </div>
+    </>
   );
 }

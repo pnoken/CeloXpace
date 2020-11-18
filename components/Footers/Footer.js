@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <div className="row">
+    <div className="row" style={{backgroundColor: "#F6AA1C"}}>
       <div className="col-sm-4">
        
           <div className="card-body">

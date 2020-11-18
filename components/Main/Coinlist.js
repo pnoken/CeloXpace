@@ -32,22 +32,22 @@ export default function CoinList() {
     <div className="mx-auto">
         <Card />
       <h1>Current Blockchain Statistics</h1>
-      {coindata.map((coin) => (
-        <table className="table">
+      <table className="table">
           <thead>
             <tr>
               <th scope="col">Parameter</th>
               <th scope="col">Statistics</th>
             </tr>
           </thead>
+      {coindata.map((coin) => (
           <tbody>
             <tr>
               <td>{coin.parameter}</td>
               <td>{coin.stats}</td>
             </tr>
           </tbody>
-        </table>
       ))}
+      </table>
     </div>
   );
 }
