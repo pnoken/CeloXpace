@@ -1,90 +1,32 @@
-[ {
-    "coins": "bitcoin",
-    "address": 200000,
-    "balance": "bitcoin",
-    "value": 200000
-},
-{
-    "coins": "bitcoin",
-    "address": 200000,
-    "balance": "bitcoin",
-    "value": 200000
-},
-{
-    "coins": "bitcoin",
-    "address": 200000,
-    "balance": "bitcoin",
-    "value": 200000
-},
-{
-    "coins": "bitcoin",
-    "address": 200000,
-    "balance": "bitcoin",
-    "value": 200000
-},
-{
-    "coins": "bitcoin",
-    "address": 200000,
-    "balance": "bitcoin",
-    "value": 200000
-},
-{
-    "coins": "bitcoin",
-    "address": 200000,
-    "balance": "bitcoin",
-    "value": 200000
-},
-{
-    "coins": "bitcoin",
-    "address": 200000,
-    "balance": "bitcoin",
-    "value": 200000
-},
-{
-    "coins": "bitcoin",
-    "address": 200000,
-    "balance": "bitcoin",
-    "value": 200000
-},
-{
-    "coins": "bitcoin",
-    "address": 200000,
-    "balance": "bitcoin",
-    "value": 200000
-},
-{
-    "coins": "bitcoin",
-    "address": 200000,
-    "balance": "bitcoin",
-    "value": 200000
-},
-{
-    "coins": "bitcoin",
-    "address": 200000,
-    "balance": "bitcoin",
-    "value": 200000
-},
-{
-    "coins": "bitcoin",
-    "address": 200000,
-    "balance": "bitcoin",
-    "value": 200000
-},
-{
-    "coins": "bitcoin",
-    "address": 200000,
-    "balance": "bitcoin",
-    "value": 200000
-},
-{
-    "coins": "bitcoin",
-    "address": 200000,
-    "balance": "bitcoin",
-    "value": 200000
-},
-{
-    "coins": "bitcoin",
-    "address": 200000,
-    "balance": "bitcoin",
-    "value": 200000
-}]
+[
+    {
+        "coins": "0.001 - 50",
+        "address": 2000,
+        "balance": 40000,
+        "value USD": "1M"
+    },
+    {
+        "coins": "51-100",
+        "address": 200000,
+        "balance": 50000,
+        "value USD": "10M"
+    },
+    {
+        "coins": "100 - 1000",
+        "address": 200000,
+        "balance": 304000,
+        "value USD": "50M"
+    },
+    {
+        "coins": "1000 - 10k",
+        "address": 232,
+        "balance": 500000,
+        "value USD": "100M"
+    },
+    {
+        "coins": " 10k - 1B",
+        "address": 59,
+        "balance": 900000,
+        "value USD": "1B"
+    }
+]

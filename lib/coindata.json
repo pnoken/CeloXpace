@@ -1,60 +1,38 @@
-[ {
-    "parameter": "bitcoin",
-    "stats": 200000
-},
-{
-    "parameter": "bitcoin",
-    "stats": 200000
-},
-{
-    "parameter": "bitcoin",
-    "stats": 200000
-},
-{
-    "parameter": "bitcoin",
-    "stats": 200000
-},
-{
-    "parameter": "bitcoin",
-    "stats": 200000
-},
-{
-    "parameter": "bitcoin",
-    "stats": 200000
-},
-{
-    "parameter": "bitcoin",
-    "stats": 200000
-},
-{
-    "parameter": "bitcoin",
-    "stats": 200000
-},
-{
-    "parameter": "bitcoin",
-    "stats": 200000
-},
-{
-    "parameter": "bitcoin",
-    "stats": 200000
-},
-{
-    "parameter": "bitcoin",
-    "stats": 200000
-},
-{
-    "parameter": "bitcoin",
-    "stats": 200000
-},
-{
-    "parameter": "bitcoin",
-    "stats": 200000
-},
-{
-    "parameter": "bitcoin",
-    "stats": 200000
-},
-{
-    "parameter": "bitcoin",
-    "stats": 200000
-}]
+[
+    {
+        "parameter": "Transaction last 24hrs",
+        "stats": 200000
+    },
+    {
+        "parameter": "Transaction last 24hrs",
+        "stats": 200000
+    },
+    {
+        "parameter": "Transaction last 1hr",
+        "stats": 200000
+    },
+    {
+        "parameter": "Avg transaction value (btc)",
+        "stats": 200000
+    },
+    {
+        "parameter": "Blocktime",
+        "stats": "5 sec"
+    },
+    {
+        "parameter": "BlockCount",
+        "stats": 456454
+    },
+    {
+        "parameter": "Block last 24hrs",
+        "stats": 155454
+    },
+    {
+        "parameter": "No of Validators",
+        "stats": 300
+    },
+    {
+        "parameter": "Active Address",
+        "stats": 345545
+    }
+]
