@@ -21,16 +21,16 @@ export default function Footer() {
 
         <ul className="list-unstyled mt-3">
           <li>
-            <a href="#!">Link 1</a>
+            <a href="#!">CeloXapce</a>
           </li>
           <li>
-            <a href="#!">Link 2</a>
+            <a href="#!">About</a>
           </li>
           <li>
-            <a href="#!">Link 3</a>
+            <a href="#!">Developers</a>
           </li>
           <li>
-            <a href="#!">Link 4</a>
+            <a href="#!">Contact</a>
           </li>
         </ul>
 
