@@ -26,12 +26,7 @@ export default function Footer() {
           <li>
             <a href="#!">About</a>
           </li>
-          <li>
-            <a href="#!">Developers</a>
-          </li>
-          <li>
-            <a href="#!">Contact</a>
-          </li>
+
         </ul>
 
       </div>
@@ -45,17 +40,11 @@ export default function Footer() {
 
 
         <ul className="list-unstyled mt-3">
-          <li>
-            <a href="#!">Link 1</a>
+        <li>
+            <a href="#!">Developers</a>
           </li>
           <li>
-            <a href="#!">Link 2</a>
-          </li>
-          <li>
-            <a href="#!">Link 3</a>
-          </li>
-          <li>
-            <a href="#!">Link 4</a>
+            <a href="#!">Contact</a>
           </li>
         </ul>
 
@@ -71,16 +60,12 @@ export default function Footer() {
 
         <ul className="list-unstyled mt-3">
           <li>
-            <a href="#!">Link 1</a>
+            <a href="#!">Blog</a>
           </li>
           <li>
-            <a href="#!">Link 2</a>
+            <a href="#!">Social Media</a>
           </li>
-          <li>
-            <a href="#!">Link 3</a>
-          </li>
-          <li>
-            <a href="#!">Link 4</a>
+
           </li>
         </ul>
 
