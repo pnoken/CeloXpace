@@ -49,6 +49,7 @@ export default function Navbar() {
             className="form-control mr-sm"
             type="search"
             placeholder="Search"
+            style={{ borderRadius: "25px"}}
           />
         </form>
       </div>

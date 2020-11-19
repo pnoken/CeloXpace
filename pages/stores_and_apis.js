@@ -22,17 +22,19 @@ export default function Home() {
         <Navbar />
         <div className="d-flex flex-column mb-5">
           <div className="flex-row  d-flex">
+            <div className="align-items-start">
             <button
               type="button"
-              className="btn btn-lg align-items-start"
+              className="btn btn-lg"
               style={{ backgroundColor: "#21F01D" }}
             >
               Sign Up for API key
             </button>
+            </div>
 
-            <div>
+            <div className="align-items-end float-right">
               <button
-                className="btn btn-lg align-items-end"
+                className="btn btn-lg"
                 type="button"
                 style={{ backgroundColor: "#21F01D" }}
               >
@@ -54,7 +56,7 @@ export default function Home() {
             </div>
 
             <div className="box shadow align-items-end mb-auto p-2 rounded">
-              <Image src="/static/cusd.png" height={300} width={450} />
+              <Image src="/static/celddd.jpg" height={300} width={350} />
               <div className="card-body">
                 <h5 className="card-title">
                   Check out Celo Accepted Stores here
@@ -65,7 +67,7 @@ export default function Home() {
 
           <div className="flex-row d-flex justify-content-center mt-auto">
             <div className="box shadow">
-              <Image src="/static/cusd.png" height={300} width={450} />
+              <Image src="/static/apps.jpg" height={300} width={350} />
               <div className="card-body">
                 <h5 className="card-title">
                   Check out Celo Accepted Stores here

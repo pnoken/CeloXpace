@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import coindata from "../../lib/coindata.json";
-import Card from "./Card"
+import Card from "./Card";
 
 export default function CoinList() {
   //     const [ coinData, setCoinData ] = useState([]);
@@ -30,31 +30,53 @@ export default function CoinList() {
 
   return (
     <>
-    <div className="mx-auto box shadow" style={{ borderRadius: "50px", height: "300px", backgroundColor: "#F49F00", zIndex: "-1", marginBottom: "-100px" }}>
-          <h1 className="text-center text-uppercase text-light p-5">Celo Stats in one place</h1>
+      <div
+        className="mx-auto box shadow"
+        style={{
+          borderRadius: "50px",
+          height: "300px",
+          backgroundColor: "#F49F00",
+          zIndex: "-1",
+          marginBottom: "-100px",
+        }}
+      >
+        <h1 className="text-center text-uppercase text-light p-5">
+          Celo Stats in one place
+        </h1>
       </div>
-    <div className="box shadow w-10" style={{ borderRadius: "50px", zIndex: 1000, backgroundColor: "white", margin: "15px" }}>
+      <div
+        className="box shadow w-10"
+        style={{
+          borderRadius: "50px",
+          zIndex: 1000,
+          backgroundColor: "white",
+          margin: "15px",
+        }}
+      >
         <Card />
         <div className="m-5">
-      <h5 className="text-uppercase text-center">Current Blockchain Statistics</h5>
-      <table className="table">
-          <thead>
-            <tr>
-              <th scope="col">Parameter</th>
-              <th scope="col">Statistics</th>
-            </tr>
-          </thead>
-      {coindata.map((coin) => (
-          <tbody>
-            <tr>
-              <td>{coin.parameter}</td>
-              <td>{coin.stats}</td>
-            </tr>
-          </tbody>
-      ))}
-      </table>
-    </div>
-    </div>
+          <h5 className="text-uppercase text-center">
+            Current Blockchain Statistics
+          </h5>
+          <table className="table">
+            <thead>
+              <tr>
+                <th scope="col">Parameter</th>
+                <th scope="col">Statistics</th>
+              </tr>
+            </thead>
+            {coindata.map((coin) => (
+              <tbody>
+                <tr>
+                  <td>{coin.parameter}</td>
+                  <td>{coin.stats}</td>
+                </tr>
+              </tbody>
+            ))}
+          </table>
+        </div>
+        
+      </div>
     </>
   );
 }
