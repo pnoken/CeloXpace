@@ -8,7 +8,7 @@ export default function Card() {
       <div className="box shadow align-items-start  m-5" style={{ borderRadius: "40px" }}>
       <div className="card-body">
           <h5 className="card-title text-center">
-            Price
+          24hr Change
           </h5>
           <div style={{ margin: "40px" }}>
           <Image src="/static/changes.png" height={200} width={350} />
@@ -24,7 +24,7 @@ export default function Card() {
             Price
           </h5>
           <div style={{ margin: "40px" }}>
-          <Image src="/static/changes.png" height={200} width={350} />
+          <Image src="/static/price.png" height={200} width={350} />
           </div>
         </div>
         
@@ -34,10 +34,10 @@ export default function Card() {
       <div className="box shadow align-items-start m-5" style={{ borderRadius: "40px" }}>
       <div className="card-body">
           <h5 className="card-title text-center">
-            Price
+          Market cap
           </h5>
           <div style={{ margin: "40px" }}>
-          <Image src="/static/changes.png" height={200} width={350} />
+          <Image src="/static/market_cap.png" height={200} width={350} />
           </div>
         </div>
         
