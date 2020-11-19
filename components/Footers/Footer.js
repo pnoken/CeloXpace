@@ -1,60 +1,98 @@
 export default function Footer() {
   return (
-    <div className="row" style={{backgroundColor: "#F6AA1C"}}>
-      <div className="col-sm-4">
-       
-          <div className="card-body">
-            <h5 className="card-title">Celoxpace</h5>
-            <ul>
-              <a href="#">
-                <li>About</li>
-              </a>
-              <a href="#">
-                <li>About</li>
-              </a>
-              <a href="#">
-                <li>About</li>
-              </a>
-            </ul>
-          </div>
-        
+    
+    
+<footer className="page-footer" style={{backgroundColor: "#F6AA1C"}}>
+
+
+  <div className="container text-center text-md-left">
+
+   
+    <div className="row">
+    
+
+      <hr className="clearfix w-100 d-md-none"/>
+
+
+      <div className="col-md-3 mx-auto">
+
+  
+  
+
+        <ul className="list-unstyled mt-3">
+          <li>
+            <a href="#!">Link 1</a>
+          </li>
+          <li>
+            <a href="#!">Link 2</a>
+          </li>
+          <li>
+            <a href="#!">Link 3</a>
+          </li>
+          <li>
+            <a href="#!">Link 4</a>
+          </li>
+        </ul>
+
       </div>
-      <div className="col-sm-4">
-        
-          <div className="card-body">
-            <h5 className="card-title">Celoxpace</h5>
-            <ul>
-              <a href="#">
-                <li>About</li>
-              </a>
-              <a href="#">
-                <li>About</li>
-              </a>
-              <a href="#">
-                <li>About</li>
-              </a>
-            </ul>
-        
-        </div>
+   
+
+      <hr className="clearfix w-100 d-md-none"/>
+
+      <div className="col-md-3 mx-auto">
+
+    
+
+
+        <ul className="list-unstyled mt-3">
+          <li>
+            <a href="#!">Link 1</a>
+          </li>
+          <li>
+            <a href="#!">Link 2</a>
+          </li>
+          <li>
+            <a href="#!">Link 3</a>
+          </li>
+          <li>
+            <a href="#!">Link 4</a>
+          </li>
+        </ul>
+
       </div>
-      <div className="col-sm-4">
-        
-          <div className="card-body">
-            <h5 className="card-title">Celoxpace</h5>
-            <ul>
-              <a href="#">
-                <li>About</li>
-              </a>
-              <a href="#">
-                <li>About</li>
-              </a>
-              <a href="#">
-                <li>About</li>
-              </a>
-            </ul>
-          </div>
-        
+
+
+      <hr className="clearfix w-100 d-md-none"/>
+
+
+      <div className="col-md-3 mx-auto">
+
+  
+
+        <ul className="list-unstyled mt-3">
+          <li>
+            <a href="#!">Link 1</a>
+          </li>
+          <li>
+            <a href="#!">Link 2</a>
+          </li>
+          <li>
+            <a href="#!">Link 3</a>
+          </li>
+          <li>
+            <a href="#!">Link 4</a>
+          </li>
+        </ul>
+
       </div>
+  
+
     </div>
+  
+
+  </div>
+  
+
+</footer>
   );
 }

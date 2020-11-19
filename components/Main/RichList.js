@@ -12,7 +12,7 @@ export default function RichList() {
       >
         Empty
       </button>
-      <form class="form-inline">
+      <form className="form-inline float-right">
         <input
           class="form-control mr-sm-2"
           type="search"

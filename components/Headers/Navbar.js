@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar navbar-expand-lg navbar-light bg-light mb-5">
       <a className="navbar-brand" href="#">
         <Image src="/static/celoimg.png" width={100} height={50} />
       </a>
