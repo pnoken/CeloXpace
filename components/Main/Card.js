@@ -2,25 +2,49 @@ import Image from "next/image"
 
 export default function Card() {
   return (
-    <div className="row m-5">
-      <div className="box shadow">
-        <div>
-          <h5>Card title</h5>
+    
+    <div className="d-flex flex-column" style={{zIndex: "1"}}>
+    <div className="flex-row  d-flex">
+      <div className="box shadow align-items-start  m-5" style={{ borderRadius: "40px" }}>
+      <div className="card-body">
+          <h5 className="card-title text-center">
+            Price
+          </h5>
+          <div style={{ margin: "40px" }}>
+          <Image src="/static/changes.png" height={200} width={350} />
+          </div>
         </div>
-        <Image src="/static/changes.png" height={150} width={150}/>
+        
+        
       </div>
-      <div className="box shadow">
-        <div>
-          <h5>Card title</h5>
+
+      <div className="box shadow align-items-start  m-5" style={{ borderRadius: "40px" }}>
+      <div className="card-body">
+          <h5 className="card-title text-center">
+            Price
+          </h5>
+          <div style={{ margin: "40px" }}>
+          <Image src="/static/changes.png" height={200} width={350} />
+          </div>
         </div>
-        <Image src="/static/price.png" height={150} width={150} />
+        
+        
       </div>
-      <div className="box shadow">
-        <div>
-          <h5>Card title</h5>
+
+      <div className="box shadow align-items-start m-5" style={{ borderRadius: "40px" }}>
+      <div className="card-body">
+          <h5 className="card-title text-center">
+            Price
+          </h5>
+          <div style={{ margin: "40px" }}>
+          <Image src="/static/changes.png" height={200} width={350} />
+          </div>
         </div>
-        <Image src="/static/market_cap.png" height={150} width={150} />
+        
+        
       </div>
     </div>
+
+  </div>
   );
 }

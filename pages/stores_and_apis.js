@@ -20,45 +20,52 @@ export default function Home() {
       </Head>
       <div className="container">
         <Navbar />
-        <div className="mb-5">
-        <button
-          type="button"
-          class="btn btn-lg"
-          style={{ backgroundColor: "#21F01D" }}
-        >
-          Sign Up for API key
-        </button>
-        <button
-          type="button"
-          class="btn btn-lg float-right"
-          style={{ backgroundColor: "#21F01D" }}
-        >
-          API Documentation
-        </button>
-        </div>
-        <div className="col">
-          <div className="col">
-            <div className="row" style={{marginBottom: "200px"}}>
-              <div className="box shadow">
-                <Image src="/static/cusd.png" height={300} width={350} />
-                <div className="card-body">
-                  <h5 className="card-title">
-                    Check out Celo Accepted Stores here
-                  </h5>
-                </div>
-              </div>
+        <div className="d-flex flex-column mb-5">
+          <div className="flex-row  d-flex">
+            <button
+              type="button"
+              className="btn btn-lg align-items-start"
+              style={{ backgroundColor: "#21F01D" }}
+            >
+              Sign Up for API key
+            </button>
 
-              <div className="ml-30 box shadow" style={{marginLeft: "320px"}}>
-                <Image src="/static/cusd.png" height={300} width={350} />
-                <div className="card-body">
-                  <h5 className="card-title">
-                    Check out Celo Accepted Stores here
-                  </h5>
-                </div>
+            <div>
+              <button
+                className="btn btn-lg align-items-end"
+                type="button"
+                style={{ backgroundColor: "#21F01D" }}
+              >
+                API Documentation
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div className="d-flex flex-column" style={{ height: "820px" }}>
+          <div className="flex-row  d-flex">
+            <div className="box shadow align-items-start rounded mr-auto">
+              <Image src="/static/cusd.png" height={300} width={450} />
+              <div className="card-body">
+                <h5 className="card-title">
+                  Check out Celo Accepted Stores here
+                </h5>
               </div>
             </div>
+
+            <div className="box shadow align-items-end mb-auto p-2 rounded">
+              <Image src="/static/cusd.png" height={300} width={450} />
+              <div className="card-body">
+                <h5 className="card-title">
+                  Check out Celo Accepted Stores here
+                </h5>
+              </div>
+            </div>
+          </div>
+
+          <div className="flex-row d-flex justify-content-center mt-auto">
             <div className="box shadow">
-              <Image src="/static/cusd.png" height={300} width={350} />
+              <Image src="/static/cusd.png" height={300} width={450} />
               <div className="card-body">
                 <h5 className="card-title">
                   Check out Celo Accepted Stores here

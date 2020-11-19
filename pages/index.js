@@ -19,7 +19,9 @@ export default function Home() {
       </Head>
       <div className="container">
       <Navbar />
+      <div>
       <CoinList />
+      </div>
 
       <Footer />
       </div>

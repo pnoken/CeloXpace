@@ -3,9 +3,9 @@ import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light mb-5">
+    <nav className="navbar navbar-expand-lg navbar-light mb-2">
       <a className="navbar-brand" href="#">
-        <Image src="/static/celoimg.png" width={100} height={50} />
+        <Image src="/static/logo.png" width={250} height={50} />
       </a>
       <button
         className="navbar-toggler"
