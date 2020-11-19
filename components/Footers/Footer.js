@@ -66,7 +66,6 @@ export default function Footer() {
             <a href="#!">Social Media</a>
           </li>
 
-          </li>
         </ul>
 
       </div>
