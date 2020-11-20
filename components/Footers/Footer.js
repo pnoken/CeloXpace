@@ -21,10 +21,16 @@ export default function Footer() {
 
         <ul className="list-unstyled mt-3">
           <li>
-            <a href="#!">CeloXapce</a>
+            <a href="#!">CeloXpace</a>
           </li>
           <li>
             <a href="#!">About</a>
+          </li>
+          <li>
+            <a href="#!">Contact</a>
+          </li>
+          <li>
+            <a href="#!">developers</a>
           </li>
 
         </ul>
@@ -41,10 +47,16 @@ export default function Footer() {
 
         <ul className="list-unstyled mt-3">
         <li>
-            <a href="#!">Developers</a>
+            <a href="#!">Resource</a>
           </li>
           <li>
-            <a href="#!">Contact</a>
+            <a href="#!">API</a>
+          </li>
+          <li>
+          <a href="#!">Blogs</a>
+          </li>
+          <li>
+            <a href="#!">Tutorial</a>
           </li>
         </ul>
 
@@ -60,10 +72,16 @@ export default function Footer() {
 
         <ul className="list-unstyled mt-3">
           <li>
-            <a href="#!">Blog</a>
+            <a href="#!">Social Media</a>
           </li>
           <li>
-            <a href="#!">Social Media</a>
+            <a href="#!">Twitter</a>
+          </li>
+          <li>
+            <a href="#!">Telegram</a>
+          </li>
+          <li>
+            <a href="#!">Facebook</a>
           </li>
 
         </ul>

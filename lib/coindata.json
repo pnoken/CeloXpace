@@ -1,26 +1,26 @@
 [
     {
         "parameter": "Transaction last 24hrs",
-        "stats": 200000
+        "stats": "$304,000"
     },
     {
-        "parameter": "Transaction last 24hrs",
-        "stats": 200000
+        "parameter": "Transaction avg/hr",
+        "stats": "$21,000"
     },
     {
         "parameter": "Transaction last 1hr",
-        "stats": 200000
+        "stats":"$64,450"
     },
     {
         "parameter": "Avg transaction value (btc)",
-        "stats": 200000
+        "stats":"$14,034"
     },
     {
         "parameter": "Blocktime",
         "stats": "5 sec"
     },
     {
-        "parameter": "BlockCount",
+        "parameter": "Blockcount",
         "stats": 456454
     },
     {

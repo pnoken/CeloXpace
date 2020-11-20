@@ -59,7 +59,7 @@ export default function Home() {
               <Image src="/static/celddd.jpg" height={300} width={350} />
               <div className="card-body">
                 <h5 className="card-title">
-                  Check out Celo Accepted Stores here
+                  Check out CUSD Accepted Stores here
                 </h5>
               </div>
             </div>
@@ -70,7 +70,7 @@ export default function Home() {
               <Image src="/static/apps.jpg" height={300} width={350} />
               <div className="card-body">
                 <h5 className="card-title">
-                  Check out Celo Accepted Stores here
+                  Explore apps built on celo
                 </h5>
               </div>
             </div>

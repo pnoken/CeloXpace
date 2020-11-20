@@ -34,7 +34,8 @@ export default function Card() {
         >
           <div className="card-body">
             <h5 className="card-title text-center">Price</h5>
-            <div style={{ margin: "40px" }}>
+            <p style = {{textAlign : 'center', fontWeight : "600"}}> $1.45</p>
+            <div style={{ margin: "40px", justifyContent: "center"}}>
               <Image src="/static/price.png" height={200} width={350} />
             </div>
           </div>
