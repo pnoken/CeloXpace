@@ -1,19 +1,19 @@
 [
     {
         "coins": "0.001 - 50",
-        "address": 2000,
-        "balance": 40000,
+        "address": 23040,
+        "balance": 49880,
         "value USD": "1M"
     },
     {
         "coins": "51-100",
-        "address": 200000,
-        "balance": 50000,
+        "address": 234340,
+        "balance": 534000,
         "value USD": "10M"
     },
     {
         "coins": "100 - 1000",
-        "address": 200000,
+        "address": 343000,
         "balance": 304000,
         "value USD": "50M"
     },
@@ -26,7 +26,7 @@
     {
         "coins": " 10k - 1B",
         "address": 59,
-        "balance": 900000,
+        "balance": 9045400,
         "value USD": "1B"
     }
 ]
