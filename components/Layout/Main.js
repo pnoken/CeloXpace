@@ -3,7 +3,7 @@ import Head from "next/head"
 
 export default function Main({ title }){
 return (
-    <div className="container-fluid">
+    <div className="container-lg">
     <Head>
     <title>{title}</title>
     <link rel="icon" href="/favicon.ico" />

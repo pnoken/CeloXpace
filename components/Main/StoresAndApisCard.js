@@ -3,21 +3,23 @@ import Image from "next/image";
 export default function StoresAndApisCard() {
   return (
     <>
+    <div className="row">
       <button
         type="button"
-        className="btn btn-lg align-items-start"
+        className="btn btn-lg col"
         style={{ backgroundColor: "#21F01D" }}
       >
         Sign Up for API key
       </button>
 
       <button
-        className="btn btn-lg align-items-ends float-right"
+        className="btn btn-lg col float-right"
         type="button"
         style={{ backgroundColor: "#21F01D" }}
       >
         API Documentation
       </button>
+      </div>
 
       <div className="d-flex flex-column" style={{ height: "820px" }}>
         <div className="flex-row  d-flex">

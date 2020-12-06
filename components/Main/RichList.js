@@ -4,25 +4,29 @@ import Card from "./Card";
 
 export default function RichList() {
   return (
-    <div className="box shadow" style={{ borderRadius: "50px", margin: "15px", height: "440px" }}>
+    <div className="box shadow" style={{ borderRadius: "50px", marginBottom: "400px"}}>
+      <div className="row">
+        <div className="col">
       <button
         type="button"
         className="btn btn-lg m-3"
         style={{ borderRadius: "25px", width: "300px", height: "50px", backgroundColor: "#21F01D" }}
-      >
-        
+      >  
       </button>
+      
       <form className="form-inline float-right m-3">
         <input
-          class="form-control sm-2 w-500"
+          class="form-control"
           type="search"
           placeholder="Search"
           aria-label="Search"
-          style={{ borderRadius: "25px", width: "700px", height: "50px" }}
+          style={{ borderRadius: "25px", height: "50px" }}
         />
       </form>
-      <div style={{ borderRadius: "50px", borderStyle: "solid", borderColor: "black", margin: "15px" }}>
-      <table className="table">
+      </div>
+      </div>
+      <div className="m-3 row" style={{ borderRadius: "50px", borderStyle: "solid", borderColor: "black"}}>
+      <table className="table col">
         <thead>
           <tr>
             <th scope="col">Coins</th>

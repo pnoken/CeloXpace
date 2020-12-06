@@ -45,7 +45,7 @@ export default function CoinList() {
         </h1>
       </div>
       <div
-        className="box shadow w-10"
+        className="box shadow"
         style={{
           borderRadius: "50px",
           zIndex: 1000,
