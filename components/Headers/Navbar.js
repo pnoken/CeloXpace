@@ -4,9 +4,11 @@ import Link from "next/link";
 export default function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light mb-2">
-      <a className="navbar-brand" href="#">
+      <Link href="/">
+      <a className="navbar-brand">
         <Image src="/static/logo.png" width={250} height={50} />
       </a>
+      </Link>
       <button
         className="navbar-toggler"
         type="button"
