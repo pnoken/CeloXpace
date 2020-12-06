@@ -93,6 +93,9 @@ export default function Footer() {
   
 
   </div>
+  <section className="bg-info user-select-none">
+    <p className="text-info">Copyright</p>
+</section>
   
 
 </footer>
