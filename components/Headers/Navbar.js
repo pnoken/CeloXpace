@@ -4,11 +4,6 @@ import Link from "next/link";
 export default function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light mb-2">
-      <Link href="/">
-      <a className="navbar-brand">
-        <Image src="/static/logo.png" width={250} height={50} />
-      </a>
-      </Link>
       <button
         className="navbar-toggler"
         type="button"
@@ -22,6 +17,11 @@ export default function Navbar() {
       </button>
 
       <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <Link href="/">
+          <a className="navbar-brand">
+            <Image src="/static/logo.png" width={250} height={50} />
+          </a>
+        </Link>
         <ul className="navbar-nav mx-auto mt-2 mt-lg-0">
           <li className="nav-item">
             <Link href="/">
@@ -51,7 +51,7 @@ export default function Navbar() {
             className="form-control mr-sm"
             type="search"
             placeholder="Search"
-            style={{ borderRadius: "25px"}}
+            style={{ borderRadius: "25px" }}
           />
         </form>
       </div>

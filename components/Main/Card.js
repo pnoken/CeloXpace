@@ -4,7 +4,7 @@ export default function Card() {
   return (
     <div className="d-flex flex-column" style={{ zIndex: "1" }}>
       <div className="flex-row  d-flex">
-      <div class="mx-auto">
+      <div className="mx-auto">
         <button
           type="button"
           className="btn btn-lg m-3 justify-center"
