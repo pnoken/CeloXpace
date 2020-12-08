@@ -2,23 +2,23 @@ import Image from "next/image";
 
 export default function StoresAndApisCard() {
   return (
-    <div className="container">
+    <>
       <div className="row">
         <button
           type="button"
-          className="btn btn-lg col-3"
+          className="btn btn-lg col-4"
           style={{ backgroundColor: "#21F01D" }}
         >
           Sign Up for API key
         </button>
-        <div className="col-6"></div>
+        <div className="col-4"></div>
 
         <button
-          className="btn btn-lg col-3"
+          className="btn btn-lg col-4"
           type="button"
           style={{ backgroundColor: "#21F01D" }}
         >
-          API Documentation
+          API Doc
         </button>
       </div>
 
@@ -46,6 +46,6 @@ export default function StoresAndApisCard() {
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }

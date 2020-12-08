@@ -93,9 +93,9 @@ export default function Footer() {
   
 
   </div>
-  <section className="bg-secondary user-select-none">
+  {/* <section className="bg-secondary user-select-none">
     <p className="text-info">Copyright</p>
-</section>
+</section> */}
   
 
 </footer>
