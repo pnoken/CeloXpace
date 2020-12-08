@@ -29,7 +29,7 @@ export default function CoinList() {
   //     });
 
   return (
-    <>
+    <div className="container">
       <div
         className="mx-auto box shadow"
         style={{
@@ -77,6 +77,6 @@ export default function CoinList() {
         </div>
         
       </div>
-    </>
+    </div>
   );
 }

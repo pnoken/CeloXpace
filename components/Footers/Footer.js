@@ -2,7 +2,7 @@ export default function Footer() {
   return (
     
     
-<footer className="page-footer mt-5" style={{backgroundColor: "#F6AA1C"}}>
+<footer className="page-footer mt-5 container" style={{backgroundColor: "#F6AA1C"}}>
 
 
   <div className="container text-center text-md-left">
@@ -93,7 +93,7 @@ export default function Footer() {
   
 
   </div>
-  <section className="bg-info user-select-none">
+  <section className="bg-secondary user-select-none">
     <p className="text-info">Copyright</p>
 </section>
   

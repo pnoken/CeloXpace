@@ -2,7 +2,7 @@ import Image from "next/image";
 export default function Partners(){
 return (
     <>
-    <div>
+    <div className="container">
           <h5 className="text-uppercase text-center">Partners</h5>
         </div>
         <div className="flex-row  d-flex">

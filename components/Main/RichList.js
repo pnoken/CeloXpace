@@ -4,7 +4,7 @@ import Card from "./Card";
 
 export default function RichList() {
   return (
-    <div className="box shadow" style={{ borderRadius: "50px", marginBottom: "400px"}}>
+    <div className="box shadow vh-100 container" style={{ borderRadius: "50px"}}>
       <div className="row">
         <div className="col">
       <button
