@@ -5,26 +5,26 @@ import Card from "./Card";
 export default function RichList() {
   return (
     <div className="box shadow vh-100 container" style={{ borderRadius: "50px"}}>
-      <div className="row">
-        <div className="col">
+      <div className="row justify-content-between m-3"> 
       <button
         type="button"
-        className="btn btn-lg m-3"
-        style={{ borderRadius: "25px", width: "300px", height: "50px", backgroundColor: "#21F01D" }}
+        className="btn btn-lg col-4"
+        style={{ borderRadius: "25px", height: "50px", backgroundColor: "#21F01D" }}
       >  
       </button>
       
-      <form className="form-inline float-right m-3">
+      <form className="col-4">
         <input
-          class="form-control"
+          className="form-control"
           type="search"
           placeholder="Search"
           aria-label="Search"
           style={{ borderRadius: "25px", height: "50px" }}
         />
       </form>
+      
       </div>
-      </div>
+      
       <div className="m-3 row" style={{ borderRadius: "50px", borderStyle: "solid", borderColor: "black"}}>
       <table className="table col">
         <thead>
